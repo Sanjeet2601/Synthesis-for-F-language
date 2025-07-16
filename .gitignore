@@ -1,0 +1,71 @@
+# Ignore large files (over 100MB) using git-lfs or manual patterns
+
+# Common large file types
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.rar
+*.bin
+*.onnx
+
+# Dataset and output folders (customize as needed)
+processed_data/
+rag_knowledge_base/
+rag_results/
+*.csv
+*.jsonl
+*.parquet
+
+# Ignore all files over 100MB (requires git >=2.11, but not enforced by .gitignore)
+# To prevent accidental large file commits, use a pre-commit hook or git-lfs
+
+# VS Code and Jupyter
+.vscode/
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# General
+*.log
+*.tmp
+*.swp
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+*dataset*
+proof_checker
+harness-checked.json
+
+/.vscode
+
+checked/
+count.txt
+fstarbundle/
+gather.py
+processed_file.txt
+huggingface/
+*helper*
+*.log
+*.json
+
